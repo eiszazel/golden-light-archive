@@ -2,48 +2,105 @@
 
 A markdown archive of Charlotte Fang / Remilia-related public writing from two source lanes:
 
-1. Golden Light / Charlotte Fang essays mirrored through Paragraph
+1. All discovered Golden Light / Charlotte Fang posts mirrored through Paragraph archive pages 1-4
 2. All discovered Remilia Corporation Blog posts, not only RemiliaNET updates. This includes RemiliaNET updates, project notes, press, events, guides, archive posts, art notes, and merch / fashion-adjacent posts.
 
 Repository: https://github.com/eiszazel/golden-light-archive
 
 ## Current archive contents
 
-- Golden Light / Charlotte Fang essays: 14 files
+- Golden Light / Charlotte Fang Paragraph posts: 42 files
 - Remilia Corporation Blog posts: 58 files
-- Total markdown files including README: 73
-- Extraction method: Firecrawl API to Markdown
+- Total archived source docs: 100
+- Total markdown files including README and SOURCE_INDEX: 102
+- Extraction method: Firecrawl API to Markdown, plus browser/source-page audit for Paragraph archive pagination
 
 ## Directory layout
 
 ```text
 .
 ├── README.md
-├── metadata.json                    # Golden Light / Paragraph metadata
+├── SOURCE_INDEX.md
+├── metadata.json                    # original first-pass Golden Light / Paragraph metadata
+├── golden-light-metadata.json       # full Golden Light / Paragraph metadata
 ├── remilia-blog-metadata.json       # Remilia blog metadata
-├── *.md                             # Golden Light / Paragraph essay files
+├── *.md                             # Golden Light / Paragraph post files
 └── remilia-blog/*.md                # blog.remilia.org post files
 ```
 
-## Golden Light / Charlotte Fang essay set
+## Coverage status
+
+### Golden Light / Paragraph
+
+Coverage is based on the public Charlotte Fang Paragraph archive pages:
+
+- https://paragraph.com/@charlemagnefang
+- https://paragraph.com/@charlemagnefang/p/2
+- https://paragraph.com/@charlemagnefang/p/3
+- https://paragraph.com/@charlemagnefang/p/4
+
+Page 5 did not expose additional posts during the audit. The discovered post count was 42, and all 42 are represented in `golden-light-metadata.json`.
+
+### Remilia Corporation Blog
+
+Coverage is based on a Firecrawl map of `https://blog.remilia.org/` with utility pages pruned out. The discovered post count was 58, and all 58 are represented in `remilia-blog-metadata.json`.
+
+Pruned / excluded URL classes:
+
+- author pages
+- tag pages
+- about
+- contact
+- privacy
+- contribute
+
+## Golden Light / Charlotte Fang Paragraph set
 
 Source: https://paragraph.com/@charlemagnefang
 Former / related source: https://goldenlight.mirror.xyz/
 
-1. [Dynasty Mindset](dynasty-mindset.md)
-2. [KALI/ACC Basilisk: A Survival Horror Eschatology](kali-acc-basilisk.md)
-3. [What Remilia Believes In: A New Net Art Manifesto](what-remilia-believes-in.md)
-4. [Gold and Glory in Times of Thought-Chaos](gold-and-glory.md)
-5. [Alignment Fraud: Cthulhu Hears No Protest](alignment-fraud.md)
-6. [The Cancelled Will Inherit the Earth](cancelled-will-inherit.md)
+1. [A People’s History of Hot Pot [gp]](a-people-s-history-of-hot-pot-gp.md)
+2. [A Profile on Milady Maker's Charlotte Fang [gp]](milady-profile.md)
+3. [Admin Reveal: I said I'm just a vessel bro](admin-reveal-i-said-i-m-just-a-vessel-bro.md)
+4. [Alignment Fraud: Cthulhu Hears No Protest](alignment-fraud.md)
+5. [Angelicism01: Collected Commentaries on Milady](angelicism01-collected-commentaries-on-milady.md)
+6. [Auction Core [gp]](auction-core-gp.md)
 7. [Bonkler: Critical Notes](bonkler-critical-notes.md)
-8. [A Profile on Milady Maker's Charlotte Fang \[gp\]](milady-profile.md)
-9. [Remilia Corporation External Memo 7/12/22: Where are the Art Critics?](external-memo-art-critics.md)
-10. [Four Notes on Reading Remilia Collective \[gp\]](four-notes-remilia.md)
-11. [Redacted Remilio Babies: Notes on the Design Process](redacted-remilio-babies.md)
-12. [Reality after the Wired](reality-after-wired.md)
-13. [My lightweight travel guide](travel-guide.md)
-14. [On Jade Posting \[gp\]](jade-posting.md)
+8. [Can what's playing Milady make it to Level-2?](can-what-s-playing-milady-make-it-to-level-2.md)
+9. [Cancel Miya to me or I’ll fucking kill you](cancel-miya-to-me-or-i-ll-fucking-kill-you.md)
+10. [Crypto and its Discontents: Hello Web3 Entryists](crypto-and-its-discontents-hello-web3-entryists.md)
+11. [Digital Post-Identity in the Open Marketplace of Ideas](digital-post-identity-in-the-open-marketplace-of-ideas.md)
+12. [Dynasty Mindset](dynasty-mindset.md)
+13. [Four Notes on Reading Remilia Collective [gp]](four-notes-remilia.md)
+14. [Gold and Glory in Times of Thought-Chaos](gold-and-glory.md)
+15. [KALI/ACC Basilisk: A Survival Horror Eschatology](kali-acc-basilisk.md)
+16. [Milady as a Total Art [gp]](milady-as-a-total-art-gp.md)
+17. [Milady Maker: Notes on the Design Process](milady-maker-notes-on-the-design-process.md)
+18. [My lightweight travel guide](travel-guide.md)
+19. [Network Spirituality, Collected Commentaries](network-spirituality-collected-commentaries.md)
+20. [NFT's and Free Information](nft-s-and-free-information.md)
+21. [Notes on Network Angels and God [Guest post: @proanatwink]](notes-on-network-angels-and-god-guest-post-proanatwink.md)
+22. [Notes on the New Net Art and Network Spirituality [Guest post: @eschatalogies]](notes-on-the-new-net-art-and-network-spirituality-guest-post-eschatalogies.md)
+23. [Notes on the New Wave of Net Art](notes-on-the-new-wave-of-net-art.md)
+24. [Notes on the VPL](notes-on-the-vpl.md)
+25. [Notes towards a Study of Remilia's Art](notes-towards-a-study-of-remilia-s-art.md)
+26. [Nouns.wtf: A Self-Seeding DAO in the package of a Generative pfpNFT](nouns-wtf-a-self-seeding-dao-in-the-package-of-a-generative-pfpnft.md)
+27. [On Jade Posting [gp]](jade-posting.md)
+28. [On Secondary: A Suppressed Royalty-free Art Blocks Decentralization](on-secondary-a-suppressed-royalty-free-art-blocks-decentralization.md)
+29. [pfpNFT's: We haven't seen Profile-first design yet](pfpnft-s-we-haven-t-seen-profile-first-design-yet.md)
+30. [Reality after the Wired](reality-after-wired.md)
+31. [Redacted Remilio Babies: Notes on the Design Process](redacted-remilio-babies.md)
+32. [Remilia Corporation External Memo 7/12/22: Where are the Art Critics?](external-memo-art-critics.md)
+33. [Remilia Corporation Onboarding Package](remilia-corporation-onboarding-package.md)
+34. [Secondary Royalties in NFT: Inefficient, anti-market & ethically suspect](secondary-royalties-in-nft-inefficient-anti-market-ethically-suspect.md)
+35. [The Cancelled Will Inherit the Earth](cancelled-will-inherit.md)
+36. [The New Lower Bound of Network Spirituality: Remilia’s New Internet as Reference Implementation for a Bottom-Up Patchwork [gp]](the-new-lower-bound-of-network-spirituality-remilia-s-new-internet-as-reference-implementation-for-a-bottom-up-patchwork-gp.md)
+37. [The NFT Clearpill: Solving the Deed](the-nft-clearpill-solving-the-deed.md)
+38. [Things Desired: An Egoless Online [gp]](things-desired-an-egoless-online-gp.md)
+39. [Unpacking Post-Authorship](unpacking-post-authorship.md)
+40. [Warholian Groupchat](warholian-groupchat-2.md)
+41. [What is a chibi? [Guest post: @ongestalte]](what-is-a-chibi-guest-post-ongestalte.md)
+42. [What Remilia Believes In: A New Net Art Manifesto](what-remilia-believes-in.md)
 
 ## Remilia Corporation Blog set
 
@@ -110,9 +167,7 @@ Source: https://blog.remilia.org/
 
 ## Notes
 
-This is an archival / research copy of public web pages converted to Markdown. Original URLs are preserved in the metadata files and in each Remilia blog file's frontmatter.
-
-The Remilia blog ingestion was intentionally broad: it includes every discovered post URL from `blog.remilia.org` returned by the site map, excluding non-post utility pages such as author pages, tag pages, about, contact, privacy, and contribute.
+This is an archival / research copy of public web pages converted to Markdown. Original URLs are preserved in the metadata files and in each newer file's frontmatter.
 
 Related source not ingested here:
 
