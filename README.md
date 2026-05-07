@@ -3,7 +3,7 @@
 A markdown archive of Charlotte Fang / Remilia-related public writing from two source lanes:
 
 1. Golden Light / Charlotte Fang essays mirrored through Paragraph
-2. Remilia Corporation Blog posts, including RemiliaNET updates, project notes, press, events, guides, and archive posts
+2. All discovered Remilia Corporation Blog posts, not only RemiliaNET updates. This includes RemiliaNET updates, project notes, press, events, guides, archive posts, art notes, and merch / fashion-adjacent posts.
 
 Repository: https://github.com/eiszazel/golden-light-archive
 
@@ -112,9 +112,18 @@ Source: https://blog.remilia.org/
 
 This is an archival / research copy of public web pages converted to Markdown. Original URLs are preserved in the metadata files and in each Remilia blog file's frontmatter.
 
+The Remilia blog ingestion was intentionally broad: it includes every discovered post URL from `blog.remilia.org` returned by the site map, excluding non-post utility pages such as author pages, tag pages, about, contact, privacy, and contribute.
+
+Related source not ingested here:
+
+- Remilia Wiki: https://wiki.remilia.org/
+
+The wiki is mentioned as a related reference, but this repository does not scrape or mirror the wiki.
+
 The archive is useful as a source pack for:
 
 - RemiliaNET product/update history
+- all discovered Remilia blog posts, including press, events, guides, project updates, art notes, archive posts, and merch / fashion-adjacent language
 - Milady / Remilia project language
 - network spirituality source grounding
 - content analysis
